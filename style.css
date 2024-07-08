@@ -1,0 +1,22 @@
+#title{
+    font-style: unset;
+    font-size: 40px;
+    color: whitesmoke;
+}
+#add{
+    color: rgb(255, 0, 221);
+    font-size: large;
+
+}
+#clear{
+    color:rgb(255, 0, 221) ;
+    font-size: large;
+}
+#main{
+    background-color: black;
+}
+#items-container{
+    color: aquamarine;
+    font-size: larger;
+}
+
