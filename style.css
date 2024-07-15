@@ -1,22 +1,61 @@
-#title{
-    font-style: unset;
-    font-size: 40px;
-    color: whitesmoke;
-}
-#add{
-    color: rgb(255, 0, 221);
-    font-size: large;
-
-}
-#clear{
-    color:rgb(255, 0, 221) ;
-    font-size: large;
-}
-#main{
-    background-color: black;
-}
-#items-container{
-    color: aquamarine;
-    font-size: larger;
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#shopping-list {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+}
+
+li.purchased {
+    text-decoration: line-through;
+    background-color: #cfcfcf;
+}
