@@ -1,21 +1,24 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopping list</title>
- </head>
- <body>
-  <div id="items-container">
-  <h1>Shopping List</h1>
-    <input type="text" id="New-Items"placeholder="Add item">
-    <button id="AddItems">Add</button>
-    <button id="ClearList">clear</button>
-  </div>
-  </div>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="header">Shopping List</h1>
+        <div class="input-group">
+            <input type="text" id="item-input" placeholder="Add item here" aria-label="Enter item">
+            <button type="button" id="add-button">Add item</button>
+        </div>
+        <ul id="shopping-list">
+            
+        </ul>
+        <button type="button" id="clear-button">Clear List</button>
+    </div>
 
-<!-- <div id="listcontainer"style="display; block"></div>  -->
- <script src="index.js"></script>
- </body>
- </html>
+    <script src="index.js"></script>
+</body>
+</html>
